@@ -19,7 +19,7 @@
 		3146CA551944B4500075FF9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3146CA3D1944B4500075FF9D /* UIKit.framework */; };
 		3146CA5D1944B4500075FF9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3146CA5B1944B4500075FF9D /* InfoPlist.strings */; };
 		3146CA5F1944B4500075FF9D /* FitnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146CA5E1944B4500075FF9D /* FitnessTests.m */; };
-		3146CA6A1944BA180075FF9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3146CA6C1944BA180075FF9D /* Main.storyboard */; };
+		31C30F4919476CDC004ABB26 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C30F4819476CDC004ABB26 /* Storyboard.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +49,7 @@
 		3146CA5A1944B4500075FF9D /* FitnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessTests-Info.plist"; sourceTree = "<group>"; };
 		3146CA5C1944B4500075FF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3146CA5E1944B4500075FF9D /* FitnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTests.m; sourceTree = "<group>"; };
-		3146CA6B1944BA180075FF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
+		31C30F4819476CDC004ABB26 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,7 +111,7 @@
 			children = (
 				3146CA481944B4500075FF9D /* LOTRAppDelegate.h */,
 				3146CA491944B4500075FF9D /* LOTRAppDelegate.m */,
-				3146CA6C1944BA180075FF9D /* Main.storyboard */,
+				31C30F4819476CDC004ABB26 /* Storyboard.storyboard */,
 				3146CA4B1944B4500075FF9D /* Images.xcassets */,
 				3146CA401944B4500075FF9D /* Supporting Files */,
 			);
@@ -223,7 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3146CA6A1944BA180075FF9D /* Main.storyboard in Resources */,
+				31C30F4919476CDC004ABB26 /* Storyboard.storyboard in Resources */,
 				3146CA441944B4500075FF9D /* InfoPlist.strings in Resources */,
 				3146CA4C1944B4500075FF9D /* Images.xcassets in Resources */,
 			);
@@ -282,14 +282,6 @@
 				3146CA5C1944B4500075FF9D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		3146CA6C1944BA180075FF9D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				3146CA6B1944BA180075FF9D /* en */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
