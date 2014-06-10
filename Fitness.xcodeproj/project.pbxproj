@@ -450,6 +450,7 @@
 				3146CA641944B4500075FF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3146CA651944B4500075FF9D /* Build configuration list for PBXNativeTarget "FitnessTests" */ = {
 			isa = XCConfigurationList;
@@ -458,6 +459,7 @@
 				3146CA671944B4500075FF9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
