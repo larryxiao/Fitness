@@ -19,7 +19,10 @@
 		3146CA551944B4500075FF9D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3146CA3D1944B4500075FF9D /* UIKit.framework */; };
 		3146CA5D1944B4500075FF9D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3146CA5B1944B4500075FF9D /* InfoPlist.strings */; };
 		3146CA5F1944B4500075FF9D /* FitnessTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3146CA5E1944B4500075FF9D /* FitnessTests.m */; };
+		31B6463E194A9D3800CC500F /* LOTRToDoListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31B6463D194A9D3800CC500F /* LOTRToDoListTableViewController.m */; };
 		31C30F4919476CDC004ABB26 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C30F4819476CDC004ABB26 /* Storyboard.storyboard */; };
+		31C30F521949F8F9004ABB26 /* LOTRToDoItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C30F511949F8F9004ABB26 /* LOTRToDoItem.m */; };
+		31C30F58194A037B004ABB26 /* LOTRAddToDoItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 31C30F57194A037B004ABB26 /* LOTRAddToDoItemViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +52,13 @@
 		3146CA5A1944B4500075FF9D /* FitnessTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FitnessTests-Info.plist"; sourceTree = "<group>"; };
 		3146CA5C1944B4500075FF9D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3146CA5E1944B4500075FF9D /* FitnessTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FitnessTests.m; sourceTree = "<group>"; };
+		31B6463C194A9D3800CC500F /* LOTRToDoListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRToDoListTableViewController.h; sourceTree = "<group>"; };
+		31B6463D194A9D3800CC500F /* LOTRToDoListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRToDoListTableViewController.m; sourceTree = "<group>"; };
 		31C30F4819476CDC004ABB26 /* Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Storyboard.storyboard; sourceTree = "<group>"; };
+		31C30F501949F8F9004ABB26 /* LOTRToDoItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRToDoItem.h; sourceTree = "<group>"; };
+		31C30F511949F8F9004ABB26 /* LOTRToDoItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRToDoItem.m; sourceTree = "<group>"; };
+		31C30F56194A037B004ABB26 /* LOTRAddToDoItemViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LOTRAddToDoItemViewController.h; sourceTree = "<group>"; };
+		31C30F57194A037B004ABB26 /* LOTRAddToDoItemViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LOTRAddToDoItemViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +118,15 @@
 		3146CA3F1944B4500075FF9D /* Fitness */ = {
 			isa = PBXGroup;
 			children = (
+				31C30F56194A037B004ABB26 /* LOTRAddToDoItemViewController.h */,
+				31C30F57194A037B004ABB26 /* LOTRAddToDoItemViewController.m */,
 				3146CA481944B4500075FF9D /* LOTRAppDelegate.h */,
 				3146CA491944B4500075FF9D /* LOTRAppDelegate.m */,
 				31C30F4819476CDC004ABB26 /* Storyboard.storyboard */,
+				31B6463C194A9D3800CC500F /* LOTRToDoListTableViewController.h */,
+				31B6463D194A9D3800CC500F /* LOTRToDoListTableViewController.m */,
+				31C30F501949F8F9004ABB26 /* LOTRToDoItem.h */,
+				31C30F511949F8F9004ABB26 /* LOTRToDoItem.m */,
 				3146CA4B1944B4500075FF9D /* Images.xcassets */,
 				3146CA401944B4500075FF9D /* Supporting Files */,
 			);
@@ -244,8 +259,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31C30F58194A037B004ABB26 /* LOTRAddToDoItemViewController.m in Sources */,
 				3146CA461944B4500075FF9D /* main.m in Sources */,
 				3146CA4A1944B4500075FF9D /* LOTRAppDelegate.m in Sources */,
+				31B6463E194A9D3800CC500F /* LOTRToDoListTableViewController.m in Sources */,
+				31C30F521949F8F9004ABB26 /* LOTRToDoItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
